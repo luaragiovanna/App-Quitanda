@@ -1,19 +1,46 @@
-# quitanda
+# App Quitanda
 
-A new Flutter project.
+Apk mobile feito em: </br>
+<b>Flutter</b> <img src="https://avatars.githubusercontent.com/u/14101776?s=200&v=4" alt="Flutter Logo" width="20"> </br>
+<b>Dart</b> <img src= "https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="GetX Logo" width="40"> </br>
 
-## Getting Started
+## Objetivo:
+- Estudar o GetX  ![GetX](https://img.shields.io/badge/GetX-6800ef?style=for-the-badge&logo=getx&logoColor=white) para gerenciamento de controle de estado, injeção de dependência e claro, simplificar a navegação das rotas 😙 📍 
 
-This project is a starting point for a Flutter application.
-![Descrição da Imagem](prints/img5.png)
-![Descrição da Imagem](prints/img4.png)
+## Funcionalidades
+
+- **Autenticação de Usuário:**
+  - Cadastro de novos usuários.
+  - Login e logout.
+  - Recuperação de senha via email.
+
+- **Navegação e Interface:**
+  - Tela inicial com categorias de produtos.
+  - Pesquisa de produtos por nome.
+  - Detalhes do produto com imagens, descrições e preços.
+
+- **Gerenciamento de Carrinho:**
+  - Adição e remoção de produtos no carrinho.
+  - Atualização de quantidades de itens.
+  - Visualização do resumo do pedido.
+
+- **Processamento de Pedidos:**
+  - Finalização de compras com opções de pagamento, incluindo Pix.
+  - Geração de QR Code para pagamentos via Pix.
+  - Acompanhamento do status dos pedidos.
+  - Histórico dos pedidos.
+ 
+  ## Imagens:
+  
+  ![Home](prints/img4.png)
+
+  ![LoginPage](prints/img5.png)
+  </br>
+
+  Demais imagens estão presentes na 📁 prints! 😄
 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
