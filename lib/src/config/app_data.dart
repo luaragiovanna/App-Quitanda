@@ -31,6 +31,13 @@ ItemModel grape = ItemModel(
   price: 12.0,
   unit: 'kg',
 );
+ItemModel banana = ItemModel(
+  description: "Banana from Brazil",
+  imgUrl: 'assets/fruits/banana.jpeg',
+  itemName: 'Banana',
+  price: 5.0,
+  unit: 'kg',
+);
 
 List<ItemModel> items = [
   apple,

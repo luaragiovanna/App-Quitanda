@@ -11,7 +11,7 @@ void main() {
 
   Get.put(AuthController()); //controller injetado na memoria
 
-  
+  //alterei a main agora vou subir a pr
   runApp(const MyApp());
 }
 
