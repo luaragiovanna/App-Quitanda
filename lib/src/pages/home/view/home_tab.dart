@@ -63,7 +63,7 @@ class _HomeTabState extends State<HomeTab> {
                 },
                 child: Badge(
                   badgeStyle: BadgeStyle(
-                    badgeColor: CustomColors.customContrastColor,
+                    badgeColor: newCustomColors.customContrastColor,
                   ),
                   badgeContent: Text(
                     controller.cartItems.length.toString(), //as String,
@@ -77,7 +77,7 @@ class _HomeTabState extends State<HomeTab> {
                     icon: IconButton(
                       onPressed: () {},
                       icon: const Icon(Icons.shopping_cart_rounded),
-                      color: CustomColors.customSwatchColor,
+                      color: newCustomColors.customSwatchColor,
                     ),
                   ),
                 ),
@@ -119,7 +119,7 @@ class _HomeTabState extends State<HomeTab> {
                         ),
                         prefixIcon: Icon(
                           Icons.search,
-                          color: CustomColors.customContrastColor,
+                          color: newCustomColors.customContrastColor,
                           size: 21,
                         ),
                         suffixIcon: controller.searchTitle.value.isNotEmpty
@@ -132,7 +132,7 @@ class _HomeTabState extends State<HomeTab> {
                                 },
                                 icon: Icon(
                                   Icons.close,
-                                  color: CustomColors.customContrastColor,
+                                  color: newCustomColors.customContrastColor,
                                   size: 21,
                                 ))
                             : null,
@@ -206,7 +206,7 @@ class _HomeTabState extends State<HomeTab> {
                               Icon(
                                 Icons.search_off_outlined,
                                 size: 40,
-                                color: CustomColors.customSwatchColor,
+                                color: newCustomColors.customSwatchColor,
                               ),
                               const Text('Não há itens para apresentar'),
                             ],

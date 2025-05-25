@@ -30,7 +30,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
                 colors: [
-              CustomColors.customSwatchColor,
+              newCustomColors.customSwatchColor,
               const Color.fromARGB(255, 124, 199, 109),
               Colors.white,
             ])),
@@ -46,7 +46,7 @@ class _SplashScreenState extends State<SplashScreen> {
             ),
             CircularProgressIndicator(
               valueColor:
-                  AlwaysStoppedAnimation(CustomColors.customContrastColor),
+                  AlwaysStoppedAnimation(newCustomColors.customContrastColor),
             ),
           ],
         ),

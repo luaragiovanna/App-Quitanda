@@ -12,7 +12,7 @@ class OrdersTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: CustomColors.customSwatchColor,
+        backgroundColor: newCustomColors.customSwatchColor,
         title: const Text(
           'Orders',
           style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),

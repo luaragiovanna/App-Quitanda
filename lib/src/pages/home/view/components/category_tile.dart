@@ -25,14 +25,14 @@ class CategoryTile extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10),
             color: isSelected
-                ? CustomColors.customSwatchColor
+                ? newCustomColors.customSwatchColor
                 : Colors.transparent,
           ),
           child: Text(
             category,
             style: TextStyle(
               color:
-                  isSelected ? Colors.white : CustomColors.customContrastColor,
+                  isSelected ? Colors.white : newCustomColors.customContrastColor,
               fontWeight: FontWeight.bold,
               fontSize: isSelected ? 16 : 14,
             ),

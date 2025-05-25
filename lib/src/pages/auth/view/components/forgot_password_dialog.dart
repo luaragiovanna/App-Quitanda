@@ -94,7 +94,7 @@ class ForgotPasswordDialog extends StatelessWidget {
                     'Recuperar',
                     style: TextStyle(
                       fontSize: 13,
-                      color: CustomColors.customSwatchColor,
+                      color: newCustomColors.customSwatchColor,
                     ),
                   ),
                 ),

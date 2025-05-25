@@ -87,7 +87,7 @@ class _ItemTileState extends State<ItemTile> {
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 20,
-                          color: CustomColors.customSwatchColor,
+                          color: newCustomColors.customSwatchColor,
                         ),
                       ),
                       Text(
@@ -128,7 +128,7 @@ class _ItemTileState extends State<ItemTile> {
                   height: 40,
                   width: 35,
                   decoration: BoxDecoration(
-                    color: CustomColors.customSwatchColor,
+                    color: newCustomColors.customSwatchColor,
                   ),
                   child: Icon(
                     tileIcon,

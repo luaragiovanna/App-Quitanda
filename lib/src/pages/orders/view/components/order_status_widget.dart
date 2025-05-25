@@ -88,9 +88,9 @@ class _StatusDot extends StatelessWidget {
           width: 20,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            border: Border.all(color: CustomColors.customSwatchColor),
+            border: Border.all(color: newCustomColors.customSwatchColor),
             color: isActive
-                ? backgroundColor ?? CustomColors.customSwatchColor
+                ? backgroundColor ?? newCustomColors.customSwatchColor
                 : Colors.transparent,
           ),
           child: isActive

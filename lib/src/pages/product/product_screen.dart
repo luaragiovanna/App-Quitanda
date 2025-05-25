@@ -89,7 +89,7 @@ class _ProductScreenState extends State<ProductScreen> {
                         style: TextStyle(
                           fontSize: 23,
                           fontWeight: FontWeight.bold,
-                          color: CustomColors.customSwatchColor,
+                          color: newCustomColors.customSwatchColor,
                         ),
                       ),
 
@@ -125,18 +125,18 @@ class _ProductScreenState extends State<ProductScreen> {
                           },
                           icon: Icon(
                             Icons.shopping_cart_outlined,
-                            color: CustomColors.customSwatchColor,
+                            color: newCustomColors.customSwatchColor,
                           ),
                           label: Text(
                             'Adicionar ao carrinho',
                             style: TextStyle(
                               fontSize: 18,
-                              color: CustomColors.customSwatchColor,
+                              color: newCustomColors.customSwatchColor,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
                           style: ElevatedButton.styleFrom(
-                            shadowColor: CustomColors.customSwatchColor,
+                            shadowColor: newCustomColors.customSwatchColor,
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(15),
                             ),

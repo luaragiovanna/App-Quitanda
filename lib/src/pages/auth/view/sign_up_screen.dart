@@ -29,7 +29,7 @@ class SignUpScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: CustomColors.customSwatchColor,
+      backgroundColor: newCustomColors.customSwatchColor,
       body: SingleChildScrollView(
         child: SizedBox(
           height: size.height,
@@ -124,7 +124,7 @@ class SignUpScreen extends StatelessWidget {
                                 return ElevatedButton(
                                   style: ElevatedButton.styleFrom(
                                       backgroundColor:
-                                          CustomColors.customSwatchColor,
+                                          newCustomColors.customSwatchColor,
                                       shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(20),
                                       )),
