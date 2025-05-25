@@ -75,13 +75,13 @@ class PaymentDialog extends StatelessWidget {
                     icon: Icon(
                       Icons.copy,
                       size: 15,
-                      color: CustomColors.customSwatchColor,
+                      color: newCustomColors.customSwatchColor,
                     ),
                     label: Text(
                       'Copiar código pix ',
                       style: TextStyle(
                         fontSize: 13,
-                        color: CustomColors.customSwatchColor,
+                        color: newCustomColors.customSwatchColor,
                       ),
                     ))
               ],

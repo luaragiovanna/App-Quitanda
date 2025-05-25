@@ -14,7 +14,7 @@ Map<int, Color> _swatchOpacity = {
   900: const Color.fromRGBO(25, 77, 189, 10)
 };
 
-abstract class CustomColors {
+abstract class newCustomColors {
   static Color customContrastColor = const Color.fromARGB(255, 129, 12, 12);
   static Color forgetPassword = const Color.fromARGB(233, 57, 57, 57);
 

@@ -27,7 +27,7 @@ class SignInScreen extends StatelessWidget {
         MediaQuery.of(context).size; //pega size da tela (largura e altura)
 
     return Scaffold(
-        backgroundColor: CustomColors.customSwatchColor,
+        backgroundColor: newCustomColors.customContrastColor,
         body: SizedBox(
           height: size.height, //altura vai ter EXATA altura da tela
           width: size.width,
@@ -141,7 +141,7 @@ class SignInScreen extends StatelessWidget {
                                       },
                                 child: authController.isLoading.value
                                     ? CircularProgressIndicator(
-                                        color: CustomColors.customSwatchColor,
+                                        color: newCustomColors.customContrastColor,
                                       )
                                     : const Text(
                                         'Entrar',
@@ -177,7 +177,7 @@ class SignInScreen extends StatelessWidget {
                             child: Text(
                               'Esqueceu a senha?',
                               style: TextStyle(
-                                color: CustomColors.forgetPassword,
+                                color: newCustomColors.forgetPassword,
                               ),
                             ),
                           ),

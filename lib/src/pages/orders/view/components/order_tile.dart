@@ -83,7 +83,7 @@ class OrderTile extends StatelessWidget {
 
                               //DIVISAO
                               VerticalDivider(
-                                color: CustomColors.customSwatchColor,
+                                color: newCustomColors.customSwatchColor,
                                 thickness: 2,
                                 width: 10,
                               ),
@@ -125,7 +125,7 @@ class OrderTile extends StatelessWidget {
                               style: ElevatedButton.styleFrom(
                                 shadowColor:
                                     const Color.fromARGB(255, 109, 109, 109),
-                                backgroundColor: CustomColors.customSwatchColor,
+                                backgroundColor: newCustomColors.customSwatchColor,
                                 iconColor: Colors.white,
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20),

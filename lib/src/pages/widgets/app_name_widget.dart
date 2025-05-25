@@ -21,13 +21,13 @@ class AppNameWidget extends StatelessWidget {
           TextSpan(
             text: 'Green',
             style: TextStyle(
-              color: greenTitleColor ?? CustomColors.customSwatchColor,
+              color: greenTitleColor ?? newCustomColors.customSwatchColor,
             ),
           ),
           TextSpan(
               text: 'grocer',
               style: TextStyle(
-                color: CustomColors.customContrastColor,
+                color: newCustomColors.customContrastColor,
               ))
         ]));
   }

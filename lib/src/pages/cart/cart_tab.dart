@@ -20,7 +20,7 @@ class _CartTabState extends State<CartTab> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: CustomColors.customSwatchColor,
+        backgroundColor: newCustomColors.customSwatchColor,
         title: const Text(
           'Carrinho',
           style: TextStyle(color: Colors.white),
@@ -39,7 +39,7 @@ class _CartTabState extends State<CartTab> {
                       Icon(
                         Icons.remove_shopping_cart,
                         size: 40,
-                        color: CustomColors.customSwatchColor,
+                        color: newCustomColors.customSwatchColor,
                       ),
                       const Text('Não há itens no carrinho'),
                     ],
@@ -95,7 +95,7 @@ class _CartTabState extends State<CartTab> {
                                 .priceToCurrency(controller.cartTotalPrice()),
                             style: TextStyle(
                               fontSize: 23,
-                              color: CustomColors.customSwatchColor,
+                              color: newCustomColors.customSwatchColor,
                               fontWeight: FontWeight.bold,
                             ),
                           );
@@ -110,7 +110,7 @@ class _CartTabState extends State<CartTab> {
                     builder: (controller) {
                       return ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: CustomColors.customSwatchColor,
+                          backgroundColor: newCustomColors.customSwatchColor,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(18),
                           ),
