@@ -8,6 +8,10 @@ String? emailValidator(String? email) {
   }
   if (!email.isEmail) return 'Invalid email format';
   return null;
+  var emailLower = email.toLowerCase();
+  if (!GetUtils.isEmail(emailLower)) {
+    return 'Invalid email format';
+  }
 }
 
 String? passwordValidator(password) {
