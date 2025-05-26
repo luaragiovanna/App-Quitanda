@@ -6,7 +6,16 @@ String? emailValidator(String? email) {
   if (email == null || email.isEmpty) {
     return "Digite um email";
   }
-  if (!email.isEmail) return 'Invalid email format';
+  if (!email.isEmail) return 'Formato de aishduahsdushduhd invalido';
+  if (email.length < 5) {
+    return "Digite pelo menos 5 caracteres.";
+  }
+  if (email.length > 50) {
+    return "Digite no maximo 50 caracteres.";
+  }
+  if (!email.contains('@')) {
+    return "Digite um email valido";
+  }
   return null;
   var emailLower = email.toLowerCase();
   if (!GetUtils.isEmail(emailLower)) {
